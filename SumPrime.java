@@ -4,7 +4,7 @@ import java.util.*;
 class SumPrime { 
 	
 	//Gib die Summe der Primzahlen  im Bereich von 0 bis Limit aus. 
-	// ds ist der Datentyp (SumOfPrime) wird für die Anforderung der Aufgabe auf int oder long angepasst.
+	// ds ist der Datentyp (SumOfPrime) wird fÃ¼r die Anforderung der Aufgabe auf int oder long angepasst.
 
 	static int sumOfPrimes(int limit) 
 	{ 
@@ -22,7 +22,7 @@ class SumPrime {
 			} 
 		} 
 	
-		// Die Summe der Primzahlen mithilfe von Sieb des Eratosthenes  zurückgeben .
+		// Die Summe der Primzahlen mithilfe von Sieb des Eratosthenes  zurÃ¼ckgeben .
 		int sum = 0; 
 		for (int i = 0; i <= limit; i++) 
 			if (prime[i]) 
@@ -30,11 +30,10 @@ class SumPrime {
 		return sum; 
 	} 
 
-        // Überprüfung mit dem Limit(2000000).
+        // ÃœberprÃ¼fung mit dem Limit(2000000).
 	public static void main(String args[]) 
 	{ 
 		int n = 2000000; 
 		System.out.print(sumOfPrimes(n)); 
 	} 
 } 
-
