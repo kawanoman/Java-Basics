@@ -5,6 +5,9 @@ public class Bruch {
     private  int zaehler;
     private  int nenner;
 
+    
+    
+    
     // Konstruktor
     public Bruch (int pZaehler, int pNenner){
         if(pNenner ==0){
