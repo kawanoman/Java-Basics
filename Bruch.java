@@ -7,6 +7,9 @@ public class Bruch {
 
     
     
+   
+    
+    
     
     // Konstruktor
     public Bruch (int pZaehler, int pNenner){
