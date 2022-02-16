@@ -6,9 +6,7 @@ public class Bruch {
     private  int nenner;
 
     
-    
-   
-    
+  
     
     
     // Konstruktor
